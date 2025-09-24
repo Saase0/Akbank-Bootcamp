@@ -10,20 +10,24 @@ Bu proje, **Akbank Derin Öğrenme Bootcamp** kapsamında bir görsel veri setin
 - Toplam 33 sınıf bulunmaktadır.  
 
 ##  Kullanılan Yöntemler
-- PyTorch kütüphanesi ile CNN modeli geliştirilmiştir.  
-- Model yapısı:
-  - 3 adet Conv2D + BatchNorm + MaxPool katmanı
-  - Fully Connected katmanlar (Dropout ile)
-  *Adam optimizer, CrossEntropyLoss ve Early Stopping uygulanmıştır.  
-- Hyperparameter tuning ile farklı öğrenme oranı, batch size ve dropout değerleri test edilmiştir.  
+PyTorch kütüphanesi ile CNN modeli geliştirilmiştir.
+Model yapısı:
+- 3 adet Conv2D + BatchNorm + MaxPool katmanı
+- Fully Connected katmanlar (Dropout ile)
+Optimizasyon:
+- Adam optimizer
+- CrossEntropyLoss
+- Early Stopping
+Hyperparameter tuning (Optuna) ile farklı öğrenme oranı, batch size ve dropout değerleri test edilmiştir. 
 
 ##  Sonuçlar
 - Model, test veri setinde yüksek doğruluk oranı elde etmiştir.  
 - Eğitim ve doğrulama kayıpları takip edilerek **overfitting engellenmiştir**.  
 - En iyi sonuçlara şu parametreler ile ulaşılmıştır:
-  - Öğrenme oranı (lr): `0.0005`  
-  - Batch size: `64`  
-  - Dropout: `0.3`
+  - Öğrenme oranı (lr): 0.001
+  - Batch size: 32
+  - Dropout: 0.3
+  - Optimizer : adam
  
   - Kaggle link:
   - 
