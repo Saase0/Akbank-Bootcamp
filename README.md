@@ -24,3 +24,6 @@ Bu proje, **Akbank Derin Öğrenme Bootcamp** kapsamında bir görsel veri setin
   - Öğrenme oranı (lr): `0.0005`  
   - Batch size: `64`  
   - Dropout: `0.3`
+ 
+  - Kaggle link:
+  - 
