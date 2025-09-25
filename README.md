@@ -5,7 +5,7 @@ Bu proje, Akbank Derin Öğrenme Bootcamp kapsamında bir görsel veri setini s�
 
 ##  Veri Seti
 -https://www.kaggle.com/datasets/ahmedelsany/car-brand-classification-dataset
-- Eğitim, doğrulama ve test olarak ayrılmıştır.  
+- Eğitim, validation ve test olarak ayrılmıştır.  
 - Görseller 128x128 boyutuna ölçeklenmiştir.  
 - Eğitim verisinde veri artırma teknikleri (color jitter) kullanılmıştır.  
 - Toplam 33 sınıf bulunmaktadır.  
