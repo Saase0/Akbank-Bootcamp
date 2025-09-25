@@ -4,6 +4,7 @@
 Bu proje, Akbank Derin Öğrenme Bootcamp kapsamında bir görsel veri setini sınıflandırmak için CNNs kullanılarak geliştirilmiştir. Amaç, verilen resimlerin doğru sınıfa atanmasını sağlayacak bir derin öğrenme modeli oluşturmaktır.
 
 ##  Veri Seti
+-https://www.kaggle.com/datasets/ahmedelsany/car-brand-classification-dataset
 - Eğitim, doğrulama ve test olarak ayrılmıştır.  
 - Görseller 128x128 boyutuna ölçeklenmiştir.  
 - Eğitim verisinde veri artırma teknikleri (color jitter) kullanılmıştır.  
