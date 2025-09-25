@@ -30,4 +30,4 @@ Hyperparameter tuning (Optuna) ile farklı öğrenme oranı, batch size ve dropo
   - Optimizer : adam
  
 Kaggle link:
-  - 
+  - https://www.kaggle.com/code/tunahandemir173/akbank-bootcamp-cnns
